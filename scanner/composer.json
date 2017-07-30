@@ -1,0 +1,24 @@
+{
+    "name": "luritas/scanner",
+    "description": "url scanner",
+    "keywords": ["luritas"],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luritas",
+            "email": "luritas.me@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Luritas\\Scanner\\": "src/"
+        }
+    }
+}
